@@ -8,18 +8,15 @@
     <script src="app.js"></script>
   </head>
   <body>
-    <div>
+    <div class="top-header">
       <h1>To Do List</h1>
+      <div class="input-header-div">
+        <input type="text" id="enter-item" placeholder="Add content here" />
+        <button onclick="addItem()">Add</button>
+      </div>
     </div>
-    <ul>
-      Item1
+    <ul id="dynamic-list">
     </ul>
-    <ul>
-      Item1
-    </ul>
-    <img src="icons-plus.png" alt="Add Item">
-    <img src="icons-minus.png" alt="Remove Item">
 
-    
   </body>
 </html>

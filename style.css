@@ -1,3 +1,59 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-seriff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-seriff;
+  margin: auto;
+  width: 50%;
+}
+h1 {
+  padding-top: 30px;
+  margin-bottom: -20px;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+.top-header {
+  background-color: rgb(160, 21, 21);
+  
+}
+
+.input-header-div {
+  width: 100%;
+  position: relative;
+}
+
+ul {
+  text-align: left;
+}
+
+input {
+  width: 70%;
+  height: 35px;
+  margin: 30px;
+  font-size: 14px;
+  border: none;
+}
+input[type="text" i] {
+  padding: 1px 10px;
+}
+
+button {
+  height: 37px;
+  position: absolute;
+  width: 20%;
+  z-index: 2;
+  border: none;
+  color: rgb(235, 235, 235);
+  background-color: rgb(153, 153, 153);
+  top: 30px;
+  right: 0px;
+  margin-right: 30px;
+
+}
+
+#dynamic-list ul {
+    height: 30px;
+    margin-top: 0px;
+    padding-left:0px ;
+    /* background-color: rgb(79, 185, 185); */
+    color: rgb(32, 30, 30);
 }
